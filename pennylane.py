@@ -1,6 +1,5 @@
 import pennylane as qml
 from pennylane import numpy as np
-from pennylane.optimize import NesterovMomentumOptimizer
 ##importing pennylane framework
 
 dev = qml.device("default.qubit", wires=4)
